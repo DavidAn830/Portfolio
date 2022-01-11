@@ -9,3 +9,7 @@ body {
 code {
   font-family: "Raleway", sans-serif;
 }
+
+html {
+  box-sizing: border-box;
+}

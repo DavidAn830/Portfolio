@@ -9,11 +9,9 @@ const AboutMe = () => {
         <div className="about-me-title">ABOUT ME</div>
       </div>
       <div className="info-container">
-        <div className="profile-card-container">
-          <div className="profile-card">
-            <img className="profile-pic" src={profile} alt="profile pic" />
-            <img className="react-logo" src={react_logo} alt="react logo" />
-          </div>
+        <div className="profile-card">
+          <img className="profile-pic" src={profile} alt="profile pic" />
+          <img className="react-logo" src={react_logo} alt="react logo" />
         </div>
         <div className="introduction-container">
           <div className="introduction-bar">

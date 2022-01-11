@@ -1,13 +1,13 @@
 .skills-container {
   background-color: #1f1f1f;
-  height: 700px;
+  /* height: 700px; */
   text-align: center;
 }
 
 .skills-title-container {
   text-align: center;
-  padding-top: 80px;
-  height: 200px;
+  padding: 100px;
+  /* height: 200px; */
   color: white;
 }
 
@@ -18,17 +18,17 @@
 }
 
 .skills-card-container {
-  margin-top: 100px;
   display: flex;
   justify-content: center;
+  padding-bottom: 100px;
+  flex-wrap: wrap;
 }
 .skills-card {
   width: 100px;
   height: 100px;
   background-color: rgba(248, 245, 244, 0.05);
   border-radius: 10px;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin: 10px 20px;
 }
 
 .skills-icon {
