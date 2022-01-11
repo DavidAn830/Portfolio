@@ -1,0 +1,63 @@
+.home-container {
+  height: 100vh;
+  background-color: #a1c3c3;
+  min-height: 450px;
+}
+
+.home-content-container {
+  padding-top: 27vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.laptop-icon {
+  height: 150px;
+}
+
+.home-name {
+  font-size: 400%;
+  font-weight: 600;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-top: 20px;
+}
+
+.job-title {
+  font-size: 200%;
+  margin-top: 20px;
+}
+
+.github-container img {
+  height: 80px;
+}
+
+.github-container {
+  padding-top: 10px;
+  padding-left: 20px;
+}
+
+.github-corner:hover .octo-arm {
+  animation: octocat-wave 560ms ease-in-out;
+}
+@keyframes octocat-wave {
+  0%,
+  100% {
+    transform: rotate(0);
+  }
+  20%,
+  60% {
+    transform: rotate(-25deg);
+  }
+  40%,
+  80% {
+    transform: rotate(10deg);
+  }
+}
+@media (max-width: 500px) {
+  .github-corner:hover .octo-arm {
+    animation: none;
+  }
+  .github-corner .octo-arm {
+    animation: octocat-wave 560ms ease-in-out;
+  }
+}
