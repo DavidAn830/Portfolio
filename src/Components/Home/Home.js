@@ -7,12 +7,16 @@ const Home = () => {
   return (
     <div className="home-container">
       <div className="github-container">
-        <a href="https://github.com/DavidAn830" target="_blank">
-          <img src={github} />
+        <a
+          href="https://github.com/DavidAn830"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img src={github} alt="github icon" />
         </a>
       </div>
       <div className="home-content-container">
-        <img className="laptop-icon" src={laptop} />
+        <img className="laptop-icon" src={laptop} alt="laptop icon" />
         <h1 className="home-name">David An</h1>
         <div className="job-title">
           <TypeWriter

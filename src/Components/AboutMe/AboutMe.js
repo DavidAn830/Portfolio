@@ -11,8 +11,8 @@ const AboutMe = () => {
       <div className="info-container">
         <div className="profile-card-container">
           <div className="profile-card">
-            <img className="profile-pic" src={profile} />
-            <img className="react-logo" src={react_logo} />
+            <img className="profile-pic" src={profile} alt="profile pic" />
+            <img className="react-logo" src={react_logo} alt="react logo" />
           </div>
         </div>
         <div className="introduction-container">

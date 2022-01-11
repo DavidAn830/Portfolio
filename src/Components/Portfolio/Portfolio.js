@@ -36,19 +36,19 @@ const Portfolio = () => {
       </div>
       <div className="projects-container">
         <div className="project-card">
-          <img src={transaction} />
+          <img src={transaction} alt="tns project pic" />
           <button className="more-btn" onClick={handleTnsOpen}>
             MORE
           </button>
         </div>
         <div className="project-card">
-          <img src={education} />
+          <img src={education} alt="teachstone project pic" />
           <button className="more-btn" onClick={handleTeachStoneOpen}>
             MORE
           </button>
         </div>
         <div className="project-card">
-          <img src={gizmos} />
+          <img src={gizmos} alt="gizmos project pic" />
           <button className="more-btn" onClick={handleGizmosOpen}>
             MORE
           </button>
