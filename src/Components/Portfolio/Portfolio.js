@@ -54,7 +54,7 @@ const Portfolio = () => {
           </button>
         </div>
         <div className="project-card">
-          <img src={gizmos} alt="gizmos project pic" />
+          <img className="gizmos-pic" src={gizmos} alt="gizmos project pic" />
           <button className="more-btn" onClick={handleGizmosOpen}>
             MORE
           </button>
