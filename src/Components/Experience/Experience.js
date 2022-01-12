@@ -85,7 +85,7 @@ const Experience = () => {
             </div>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            iconStyle={{ background: "#C3A3A1", color: "#fff" }}
+            iconStyle={{ background: "#79979a", color: "#fff" }}
             icon={<HourglassFullIcon />}
           />
         </VerticalTimeline>
