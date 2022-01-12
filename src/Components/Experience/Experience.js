@@ -20,7 +20,7 @@ const Experience = () => {
             contentStyle={{ background: "#fff", color: "#353239" }}
             contentArrowStyle={{ borderRight: "7px solid  #fff" }}
             date="2019 - Present"
-            iconStyle={{ background: "#79979a", color: "#fff" }}
+            iconStyle={{ background: "#5e7a7d", color: "#fff" }}
             icon={<WorkIcon />}
           >
             <h3 className="vertical-timeline-element-title">React Developer</h3>
@@ -44,7 +44,7 @@ const Experience = () => {
             contentStyle={{ background: "#fff", color: "#353239" }}
             contentArrowStyle={{ borderRight: "7px solid  #fff" }}
             date="2017 - 2019"
-            iconStyle={{ background: "#79979a", color: "#fff" }}
+            iconStyle={{ background: "#5e7a7d", color: "#fff" }}
             icon={<WorkIcon />}
           >
             <h3 className="vertical-timeline-element-title">Web Developer</h3>
@@ -67,7 +67,7 @@ const Experience = () => {
             contentStyle={{ background: "#fff", color: "#353239" }}
             contentArrowStyle={{ borderRight: "7px solid  #fff" }}
             date="2016 - 2017"
-            iconStyle={{ background: "#79979a", color: "#fff" }}
+            iconStyle={{ background: "#5e7a7d", color: "#fff" }}
             icon={<WorkIcon />}
           >
             <h3 className="vertical-timeline-element-title">
@@ -85,7 +85,7 @@ const Experience = () => {
             </div>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            iconStyle={{ background: "#79979a", color: "#fff" }}
+            iconStyle={{ background: "#5e7a7d", color: "#fff" }}
             icon={<HourglassFullIcon />}
           />
         </VerticalTimeline>
