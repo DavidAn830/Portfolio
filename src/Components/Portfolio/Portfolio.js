@@ -1,7 +1,7 @@
 import "./Portfolio.css";
-import transaction from "../../images/transaction_monitoring.jpg";
-import education from "../../images/education.jpg";
-import gizmos from "../../images/gizmos.png";
+import transaction from "../../images/tns_graphic.jpg";
+import education from "../../images/education_graphic.png";
+import gizmos from "../../images/gizmos_graphic.jpg";
 import React from "react";
 import { Modal, Typography, Fade, Backdrop, Box } from "@material-ui/core";
 
@@ -38,13 +38,17 @@ const Portfolio = () => {
       </div>
       <div className="projects-container">
         <div className="project-card">
-          <img src={transaction} alt="tns project pic" />
+          <img className="tns-pic" src={transaction} alt="tns project pic" />
           <button className="more-btn" onClick={handleTnsOpen}>
             MORE
           </button>
         </div>
         <div className="project-card">
-          <img src={education} alt="teachstone project pic" />
+          <img
+            className="education-pic"
+            src={education}
+            alt="teachstone project pic"
+          />
           <button className="more-btn" onClick={handleTeachStoneOpen}>
             MORE
           </button>
@@ -80,9 +84,9 @@ const Portfolio = () => {
               transactions each year. Customers utilizing the secure
               connectivity of TNS need to see the status of their connected
               devices, transactions, and files as they flow through the TNS
-              network. TNSOnline provides the access needed to monitor the
+              network. TNS Online provides the access needed to monitor the
               performance of our network and status of the secure files flowing
-              through it. The key benefits of TNSOnline include real time
+              through it. The key benefits of TNS Online include real time
               performance portal, historical data reporting, and PCI compliance.
             </Typography>
           </Box>
