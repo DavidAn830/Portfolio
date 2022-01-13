@@ -45,6 +45,18 @@
   margin: 10px;
 }
 
+.project-card .education-pic {
+  height: 230px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.project-card .tns-pic {
+  height: 250px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 .more-btn {
   background-color: transparent;
   border: 2px solid gray;
@@ -86,6 +98,23 @@
     width: 280px;
     height: 170px;
     margin-bottom: 0;
+  }
+
+  .project-card .tns-pic {
+    height: 150px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+  }
+
+  .project-card .education-pic {
+    height: 150px;
+    margin-bottom: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .project-card .gizmos-pic {
+    margin-top: 0;
   }
 
   .more-btn {
