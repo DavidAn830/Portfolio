@@ -81,7 +81,7 @@ const Experience = () => {
               <div className="small-skills">HTML5</div>
               <div className="small-skills">CSS3</div>
               <div className="small-skills">React Router</div>
-              <div className="small-skills">RESful API</div>
+              <div className="small-skills">RESTful API</div>
             </div>
           </VerticalTimelineElement>
           <VerticalTimelineElement

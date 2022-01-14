@@ -1,4 +1,4 @@
-import instagram from "../../images/instagram.svg";
+// import instagram from "../../images/instagram.svg";
 import github from "../../images/github.svg";
 import "./Footer.css";
 
@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div className="footer">
       <div className="media">
-        <div className="instagram responsive-img">
+        {/* <div className="instagram responsive-img">
           <a
             href="https://www.instagram.com/tya830_/"
             target="_blank"
@@ -14,7 +14,7 @@ const Footer = () => {
           >
             <img src={instagram} alt="instagram icon" />
           </a>
-        </div>
+        </div> */}
         <div className="github responsive-img">
           <a
             href="https://github.com/DavidAn830"

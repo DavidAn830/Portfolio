@@ -40,7 +40,7 @@ const Portfolio = () => {
         <div className="project-card">
           <img className="tns-pic" src={transaction} alt="tns project pic" />
           <button className="more-btn" onClick={handleTnsOpen}>
-            MORE
+            TNS
           </button>
         </div>
         <div className="project-card">
@@ -50,13 +50,13 @@ const Portfolio = () => {
             alt="teachstone project pic"
           />
           <button className="more-btn" onClick={handleTeachStoneOpen}>
-            MORE
+            TeachStone
           </button>
         </div>
         <div className="project-card">
           <img className="gizmos-pic" src={gizmos} alt="gizmos project pic" />
           <button className="more-btn" onClick={handleGizmosOpen}>
-            MORE
+            ExploreLearning
           </button>
         </div>
       </div>
